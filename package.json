@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --port=8110",
     "build": "ng build",
     "publish": "ng build --prod --output-path docs --base-href /rxjs-study/ && node ./script/file.js",
     "test": "ng test",
